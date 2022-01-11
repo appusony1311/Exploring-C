@@ -30,11 +30,13 @@ Log N Runtimes
 Recursive Runtimes
 Non-Recursive rumtimes
 
+
 C code snippets functions logics explaination for - 
 AVL Trees, red black trees,  DFS, BFS
 
 
 Dynamic Programming - check the topics to be covered in CTCI
+
 
 Strassen's Matrix Multiplication.
 Recursion
