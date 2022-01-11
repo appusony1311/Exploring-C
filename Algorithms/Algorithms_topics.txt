@@ -2,6 +2,10 @@
 
 Refer to G-Drive for recorded sessions:
 
+
+SECTION - I
+-----------
+
 What is greedy method?
 Coin Change problem
 Knapsack problem
@@ -83,7 +87,82 @@ Branch & Bound
 Approximation Algorithms for NP-Hard Problems
 	Approximation Algorithms for Travelling Salesman Problem(TSP)
 	Approximation Algorithm for Knapsack Problem
+
+---------------------------------
+
+SECTION - II
+------------
 	
+Others:
+
+Hashing
+
+14.1 What is Hashing?
+14.2 Why Hashing?
+14.3 HashTable ADT
+14.4 Understanding Hashing
+14.5 Components of Hashing
+14.6 Hash Table
+14.7 Hash Function
+14.8 Load Factor
+14.9 Collisions
+14.10 Collision Resolution Techniques
+14.11 Separate Chaining
+14.12 Open Addressing
+14.13 Comparison of Collision Resolution Techniques
+14.14 How Hashing Gets O(1) Complexity?
+14.15 Hashing Techniques
+14.16 Problems for which Hash Tables are not suitable
+14.17 Bloom Filters
+14.18 Hashing: Problems & Solutions
+
+
+15. String Algorithms
+
+15.1 Introduction
+15.2 String Matching Algorithms
+15.3 Brute Force Method
+15.4 Rabin-Karp String Matching Algorithm
+15.5 String Matching with Finite Automata
+15.6 KMP Algorithm
+15.7 Boyer-Moore Algorithm
+15.8 Data Structures for Storing Strings
+15.9 Hash Tables for Strings
+15.10 Binary Search Trees for Strings
+15.11 Tries
+15.12 Ternary Search Trees
+15.13 Comparing BSTs, Tries and TSTs
+15.14 Suffix Trees
+15.15 String Algorithms: Problems & Solutions
+
+Priority Queues and Heaps
+
+7.1 What is a Priority Queue?
+7.2 Priority Queue ADT
+7.3 Priority Queue Applications
+7.4 Priority Queue Implementations
+7.5 Heaps and Binary Heaps
+7.6 Binary Heaps
+7.7 Heapsort
+7.8 Priority Queues [Heaps]: Problems & Solutions
+
+
+Disjoint Sets ADT
+
+8.1 Introduction
+8.2 Equivalence Relations and Equivalence Classes
+8.3 Disjoint Sets ADT
+8.4 Applications
+8.5 Tradeoffs in Implementing Disjoint Sets ADT
+8.8 Fast UNION Implementation (Slow FIND)
+8.9 Fast UNION Implementations (Quick FIND)
+8.10 Summary
+8.11 Disjoint Sets: Problems & Solutions
+
+---------------------------------
+
+SECTION - III
+-------------
 
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 
@@ -146,83 +225,3 @@ Rat in a Maze Problem
 Word Boggle
 Generate IP Addresses
 
-
----------------------------------
-Others:
-
-
-Priority Queues and Heaps
-
-7.1 What is a Priority Queue?
-7.2 Priority Queue ADT
-7.3 Priority Queue Applications
-7.4 Priority Queue Implementations
-7.5 Heaps and Binary Heaps
-7.6 Binary Heaps
-7.7 Heapsort
-7.8 Priority Queues [Heaps]: Problems & Solutions
-
-
-Disjoint Sets ADT
-
-8.1 Introduction
-8.2 Equivalence Relations and Equivalence Classes
-8.3 Disjoint Sets ADT
-8.4 Applications
-8.5 Tradeoffs in Implementing Disjoint Sets ADT
-8.8 Fast UNION Implementation (Slow FIND)
-8.9 Fast UNION Implementations (Quick FIND)
-8.10 Summary
-8.11 Disjoint Sets: Problems & Solutions
-
-Graph Algorithms
-
-9.1 Introduction
-9.2 Glossary
-9.3 Applications of Graphs
-9.4 Graph Representation
-9.5 Graph Traversals
-9.6 Topological Sort
-9.7 Shortest Path Algorithms
-9.8 Minimal Spanning Tree
-9.9 Graph Algorithms: Problems & Solutions
-
-Hashing
-
-14.1 What is Hashing?
-14.2 Why Hashing?
-14.3 HashTable ADT
-14.4 Understanding Hashing
-14.5 Components of Hashing
-14.6 Hash Table
-14.7 Hash Function
-14.8 Load Factor
-14.9 Collisions
-14.10 Collision Resolution Techniques
-14.11 Separate Chaining
-14.12 Open Addressing
-14.13 Comparison of Collision Resolution Techniques
-14.14 How Hashing Gets O(1) Complexity?
-14.15 Hashing Techniques
-14.16 Problems for which Hash Tables are not suitable
-14.17 Bloom Filters
-14.18 Hashing: Problems & Solutions
-
-
-15. String Algorithms
-
-15.1 Introduction
-15.2 String Matching Algorithms
-15.3 Brute Force Method
-15.4 Rabin-Karp String Matching Algorithm
-15.5 String Matching with Finite Automata
-15.6 KMP Algorithm
-15.7 Boyer-Moore Algorithm
-15.8 Data Structures for Storing Strings
-15.9 Hash Tables for Strings
-15.10 Binary Search Trees for Strings
-15.11 Tries
-15.12 Ternary Search Trees
-15.13 Comparing BSTs, Tries and TSTs
-15.14 Suffix Trees
-15.15 String Algorithms: Problems & Solutions
