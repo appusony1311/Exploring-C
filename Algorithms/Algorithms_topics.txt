@@ -227,3 +227,7 @@ Rat in a Maze Problem
 Word Boggle
 Generate IP Addresses
 
+SECTION - IV
+-------------
+Solutions to the Algorithms_DesignKleinberg's book.
+
