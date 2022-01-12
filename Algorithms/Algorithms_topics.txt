@@ -231,3 +231,35 @@ SECTION - IV
 -------------
 Solutions to the Algorithms_DesignKleinberg's book.
 
+SECTION -V
+----------
+Important:
+
+Datastructure https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
+Algo https://www.programiz.com/dsa/stack
+
+Travelling Salesman Problem Greedy Algo
+Prim's Minimal Spanning Tree Algorithm
+Kruskal's Minimal Spanning Tree Algorithm
+Dijkstra's Minimal Spanning Tree Algorithm
+Graph - Map Coloring
+Graph - Vertex Cover
+Knapsack Problem
+Job Scheduling Problem
+Fibonacci number series Dynamic Programming
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
+Merge Sort Divide and Conquer
+Quick Sort
+Binary Search
+Strassen's Matrix Multiplication
+Closest pair (points)
+
+
+https://www.tryexponent.com/courses/software-engineering
+https://www.tryexponent.com/questions?src=nav
+https://www.youtube.com/results?search_query=system+design
+https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ
