@@ -1,93 +1,96 @@
-1.	Add two number in binary representation - AddTwoNumberInBinaryRepresentation.java
-2.	Given an integer and number k, right or left rotate bits in this integer by k - BitRotation.java
-3.	Using byte array for storing information - ByteAsStorage.java
-4.	Count number of set bits in an integer - CountBits.java
-5.	Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
-6.	Given an array in which every number occurs 3 times find this one number occurring only once - FindNumberOccurringOnceOtherNumbers3Times.java
-7.	Given two numbers M and N, insert M into N from i to j bits of N - InsertMintoNiTojBits.java
-8.	Given an integer find next higher/lower integer with same number of set bits as original integer - NextHigherAndNextLowerWithSameNumberBits.java
-9.	Given an integer find next power of 2 greater than this integer - NextPowerOf2.java
-10.	Given an array find one/two number occurring odd number of times - NumberOccuringOddTimes.java
-11.	Given two numbers M and N, how many bit flips are required to convert M into N - NumberOfBitsFlipToConvertNToM.java
-12.	Convert a real number(with decimals) into a binary number - RealNumberToBinary.java
-13.	Given an integer reverse bits of this integer - ReverseBits.java
-14.	Given an integer swap its odd bits with even bits at every position - SwapOddEvenBits.java
-15.	Given an integer and two numbers i and j, swap bits at these positions in this integer - SwapTwoBits.java
-16.	Initially there is a number n. Two players start playing a game turn by turn. Each player has to replace the number n written on the board by n-2^k (for some k >= 0 such that 2^k < n) - WinnerWithBeautifulNumber.java
-17.	Square of a number without using * or ^ operator - SquareOfNumber.java
-18.	Find two missing number where there are n-2 unique numbers in range 1 to n. Find one missing and one repeated number where all numbers are in range 1 to n. MissingNumbers.java
-19.	Repeated dna sequence of length 10 - RepeatedDnaSequence.java
-20.	Get first 2^n gray code - GrayCode.java
-21.	Return an array which gives count of bits till num - CountingBitsTillNum.java
-22.	Find max product of words length in given array - MaxProductWordLength.java
-23.	Convert a binary code to integer
-24.	Flip the bits of given number
-25.	Find the most significant set bit of a number
-26.	Quickly check if bits in a number are in alternate pattern
+Add two number in binary representation - AddTwoNumberInBinaryRepresentation.java
+Given an integer and number k, right or left rotate bits in this integer by k - BitRotation.java
+Using byte array for storing information - ByteAsStorage.java
+Count number of set bits in an integer - CountBits.java
+Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
+Given an array in which every number occurs 3 times find this one number occurring only once - FindNumberOccurringOnceOtherNumbers3Times.java
+Given two numbers M and N, insert M into N from i to j bits of N - InsertMintoNiTojBits.java
+Given an integer find next higher/lower integer with same number of set bits as original integer - NextHigherAndNextLowerWithSameNumberBits.java
+Given an integer find next power of 2 greater than this integer - NextPowerOf2.java
+Given an array find one/two number occurring odd number of times - NumberOccuringOddTimes.java
+Given two numbers M and N, how many bit flips are required to convert M into N - NumberOfBitsFlipToConvertNToM.java
+Convert a real number(with decimals) into a binary number - RealNumberToBinary.java
+Given an integer reverse bits of this integer - ReverseBits.java
+Given an integer swap its odd bits with even bits at every position - SwapOddEvenBits.java
+Given an integer and two numbers i and j, swap bits at these positions in this integer - SwapTwoBits.java
+Initially there is a number n. Two players start playing a game turn by turn. Each player has to replace the number n written on the board by n-2^k (for some k >= 0 such that 2^k < n) - WinnerWithBeautifulNumber.java
+Square of a number without using * or ^ operator - SquareOfNumber.java
+Find two missing number where there are n-2 unique numbers in range 1 to n. Find one missing and one repeated number where all numbers are in range 1 to n. MissingNumbers.java
+Repeated dna sequence of length 10 - RepeatedDnaSequence.java
+Get first 2^n gray code - GrayCode.java
+Return an array which gives count of bits till num - CountingBitsTillNum.java
+Find max product of words length in given array - MaxProductWordLength.java
+Convert a binary code to integer
+Flip the bits of given number
+Find the most significant set bit of a number
+Quickly check if bits in a number are in alternate pattern
 
 
-27.	Macro to set a bit
-28.	Clear a bit
-29.	Toggle a bit
-30.	Checking if bit at nth position is set or not
-31.	Inverting every bit of a number/1s complement
-32.	2s complement of the no.
-33.	Stripping off the lowest set bit
-34.	Getting lowest set bit of a number
-35.	To sum of given digits
-36.	Reverse a number without recursion
-37.	To check the given number is factorial or not
-38.	Rotation of bits
-39.	Full adder logic
-40.	Add without using + operator [Half adder logic]
-75.	Subtract without using operator
-76.	Multiply without using x operator
-77.	Divide 2 nos without using / operator
-78.	Divisible by 2 using right shift operation
-79.	Multiply by 2 using left shift operator
-73.	Find xor without using xor
-41.	Clear all bits from lsb to ith bit
-42.	Clearing all bits from msb to ith bit
-43.	Changing nth bit to x
-44.	Upper case English alphabet to lowercase
-45.	Lowercase English alphabet to uppercase
-46.	Show bits
-47.	Shift even & odd positions
-48.	Calculate 2^n
-49.	Check if given 32 bit integer is power of 2
-50.	Find logbase2 of a 32 bit integer
-51.	Count set bits in integer
-52.	Position of rightmost set bit
-53.	To clear rightmost set bit
-54.	Position of rightmost set bit
-55.	Turn off rightmost set bit
-56.	Count total set bits in all nos from 1 to n
-57.	Check if a number is even or odd
-58.	Quickest way to swap 2 no.s
-59.	Swap every bits
-60.	Swap all odd & even bits
-61.	To swap bits in a given number 
-64.	Set mth to nth bit
-65.	Conversions of a given number
-66.	Given register address how to write a value to it.
-67.	Game of XOR
-68.	Find bit at a position
-69.	Odd occurring element
-70.	Missing number array
-71.	Index of a extra element
-72.	Power set
+Macro to set a bit
+Clear a bit
+Toggle a bit
+Checking if bit at nth position is set or not
+Inverting every bit of a number/1s complement
+2s complement of the no.
+Stripping off the lowest set bit
+Getting lowest set bit of a number
+To sum of given digits
+Reverse a number without recursion
+To check the given number is factorial or not
+Palindrome or not
+Rotation of bits
+
+Add without using + operator [Half adder logic]
+Full adder logic
+Subtract without using operator
+Multiply without using x operator
+Divide 2 nos without using / operator
+Divisible by 2 using right shift operation
+Multiply by 2 using left shift operator
+
+Find xor without using xor
+Clear all bits from lsb to ith bit
+Clearing all bits from msb to ith bit
+Changing nth bit to x
+Upper case English alphabet to lowercase
+Lowercase English alphabet to uppercase
+Show bits
+Shift even & odd positions
+Calculate 2^n
+Check if given 32 bit integer is power of 2
+Find logbase2 of a 32 bit integer
+Count set bits in integer
+Position of rightmost set bit
+To clear rightmost set bit
+Position of rightmost set bit
+Turn off rightmost set bit
+Count total set bits in all nos from 1 to n
+Check if a number is even or odd
+Quickest way to swap 2 no.s
+Swap every bits
+Swap all odd & even bits
+To swap bits in a given number 
+Set mth to nth bit
+Conversions of a given number
+Given register address how to write a value to it.
+Game of XOR
+Find bit at a position
+Odd occurring element
+Missing number array
+Index of a extra element
+Power set
 
 
-80.	To check whether little endian to big endian
-81.	To convert 32 bit from LE to BE
-82.	S to I
-83.	I to S
+To check whether little endian to big endian
+To convert 32 bit from LE to BE
+S to I
+I to S
 
-85.	To check the given number is factorial or not
-87.	To print 1 to 100 without using loops
-88.	To print helloworld without using semicolon
+To check the given number is factorial or not
+To print 1 to 100 without using loops
+To print helloworld without using semicolon
 
-89. To interchange the bits in two given numbers
+To interchange the bits in two given numbers
 
 
 
@@ -172,6 +175,7 @@ Booth’s Multiplication Algorithm
 Leftover element after performing alternate Bitwise OR and Bitwise XOR operations on adjacent pairs
 Number of pairs with Pandigital Concatenation
 Find the n-th number whose binary representation is a palindrome
+
 Misc :
 
 Interesting Facts about Bitwise Operators in C
@@ -185,13 +189,8 @@ Bits manipulation (Important tactics)
 Bit Tricks for Competitive Programming
 Quick Links :
 
-‘Practice Problems’ on Bit Magic
-‘Quiz’ on Bit Magic
-‘Videos’ on Bit Magic
 
-
-
-Note: 
+References & Notes: 
 https://www.geeksforgeeks.org/category/bit-magic/
 https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&category%5B%5D=Bit%20Magic
 https://www.geeksforgeeks.org/algorithms-gq/bit-algorithms-gq/
