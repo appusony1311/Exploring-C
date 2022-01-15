@@ -97,7 +97,6 @@ To interchange the bits in two given numbers
 https://www.geeksforgeeks.org/bitwise-algorithms/
 
 Basic :
-
 Find the element that appears once
 Detect if two integers have opposite signs
 Add 1 to a given number
@@ -123,7 +122,85 @@ Add two bit strings
 Write your own strcmp that ignores cases
 Check if two numbers are equal without using arithmetic and comparison operators
 Find XOR of two number without using XOR operator
-More >>
+XOR counts of 0s and 1s in binary representation
+Calculate XOR from 1 to n
+Equal Sum and XOR
+Swap three variables without using temporary variable
+Check if a number has bits in alternate pattern
+XOR of two numbers after making length of their binary representations equal
+Count minimum bits to flip such that XOR of A and B equal to C
+Efficient method for 2’s complement of a binary string
+Toggle case of a string using Bitwise operators
+Toggling k-th bit of a number
+Convert decimal fraction to binary number
+Toggle all the bits of a number except k-th bit
+Set the rightmost unset bit
+Convert a binary number to octal
+Check in binary array the number represented by a subarray is odd or even
+Toggle the last m bits
+1 to n bit numbers with no consecutive 1s in binary representation
+Toggle bits in the given range
+Unset bits in the given range
+Find the largest number with n set and m unset bits
+Find the smallest number with n set and m unset bits
+Sum of numbers with exactly 2 bits set
+Check if binary representation of a given number and its complement are anagram
+Check a number is odd or even without modulus operator
+Bitwise recursive addition of two integers
+Print bitwise AND set of a number N
+Fast average of two numbers without division
+Maximum XOR-value of at-most k-elements from 1 to n
+Swap every two bits in bytes
+Check if a number is divisible by 8 using bitwise operators
+Number of Reflexive Relations on a Set
+For every set bit of a number toggle bits of other
+Toggle bits of a number expect first and last bits
+Check if given four integers (or sides) make rectangle
+Toggle all even bits of a number
+Toggle first and last bits of a number
+Set the Left most unset bit
+Maximum XOR using K numbers from 1 to n
+Python | Count set bits in a range
+Python map function | Count total set bits in all numbers from 1 to n
+Check whether the bit at given position is set or unset
+Multiplication with a power of 2
+Check if n is divisible by power of 2 without using arithmetic operators
+Toggle all odd bits of a number
+Count set bits using Python List comprehension
+Check if a number is positive, negative or zero using bit operators
+Modify a bit at a given position
+CHAR_BIT in C
+Find One’s Complement of an Integer
+Add two numbers without using arithmetic operators
+Multiply a number with 10 without using multiplication operator
+Check if one of the numbers is one’s complement of the other
+Check if a number has bits in alternate pattern | Set-2 O(1) Approach
+Set all the bits in given range of a number
+Calculate 7n/8 without using division and multiplication operators
+Count total bits in a number
+Find most significant set bit of a number
+Find smallest number n such that n XOR n+1 equals to given k
+Check if a number has two adjacent set bits
+Write an Efficient Method to Check if a Number is Multiple of 3
+Extract ‘k’ bits from a given position in a number
+Print ‘K’th least significant bit of a number
+Check if two numbers are equal without using comparison operators
+Efficiently check whether n is a multiple of 4 or not
+Check whether K-th bit is set or not
+Check if a number is multiple of 9 using bitwise operators
+Compare two integers without using any Comparison operator
+Multiplying a variable with a constant without using multiplication operator
+Check whether a given number is even or odd
+Powers of 2 to required sum
+Set all even bits of a number
+Set all odd bits of a number
+Print numbers having first and last bits as the only set bits
+Check if binary representations of two numbers are anagram
+Multiples of 4 (An Interesting Method)
+Given a set, find XOR of the XOR’s of all subsets.
+Write a function that returns 2 for input 1 and returns 1 for 2
+Subtract two numbers without using arithmetic operators
+
 
 Intermediate :
 
@@ -152,7 +229,112 @@ Copy set bits in a range
 Check if a number is Bleak
 Count strings with consecutive 1’s
 Gray to Binary and Binary to Gray conversion
-More >>
+Find Next Sparse Number
+Sum of bit differences among all pairs
+Sum of Bitwise And of all pairs in a given array
+Bitwise and (or &) of a range
+Length of the Longest Consecutive 1s in Binary Representation
+Pairs of complete strings in two sets of strings
+Find profession in a special family
+Print first n numbers with exactly two set bits
+Check if bits of a number has count of consecutive set bits in increasing order
+Subset sum queries using bitset
+Maximum 0’s between two immediate 1’s in binary representation
+Count all pairs of an array which differ in K bits
+Efficiently check if a string has duplicates without using any additional data structure
+Count trailing zero bits using lookup table
+Count smaller numbers whose XOR with n produces greater value
+Check divisibility in a binary stream
+Multiplication of two numbers with shift operator
+Determine if a string has all Unique Characters
+Reverse an array without using subtract sign ‘-‘ anywhere in the code
+Count numbers whose sum with x is equal to XOR with x
+Maximum XOR value of a pair from a range
+Numbers whose bitwise OR and sum with N are equal
+Change bits to make specific OR value
+Count smaller values whose XOR with x is greater than x
+Next greater integer having one more number of set bits
+Check if two numbers are bit rotations of each other or not
+Previous smaller integer having one less number of set bits
+Maximize a given unsigned number number by swapping bits at it’s extreme positions
+Set bits in N equals to M in the given range
+Count number of distinct sum subsets within given range
+Baum Sweet Sequence
+Minimum digits to remove to make a number Perfect Square
+Number whose sum of XOR with given array range is maximum
+Odd numbers in N-th row of Pascal’s Triangle
+Check if bitwise AND of any subset is power of two
+Space optimization using bit manipulations
+Fast inverse square root
+Find one extra character in a string
+Number of unique triplets whose XOR is zero
+Fibbinary Numbers (No consecutive 1s in binary)
+Fibbinary Numbers (No consecutive 1s in binary) – O(1) Approach
+Divide two integers without using multiplication, division and mod operator
+Check if binary string multiple of 3 using DFA
+Count set bits in an integer using Lookup Table
+Alternate bits of two numbers to create a new number
+Decimal representation of given binary string is divisible by 20 or not
+Check if actual binary representation of a number is palindrome
+Reverse actual bits of the given number
+Odious number
+Pernicious number
+Increment a number by one by manipulating the bits
+Python Slicing | Extract ‘k’ bits from a given position
+Print numbers in the range 1 to n having bits in alternate pattern
+Python | Count unset bits in a range
+Addition of two numbers without carry
+Josephus Problem Using Bit Magic
+XNOR of two numbers
+Maximum OR sum of sub-arrays of two different arrays
+Position of rightmost bit with first carry in sum of two binary
+Check whether the two numbers differ at one bit position only
+Queries on XOR of XORs of all subarrays
+Count unset bits in a range
+A backtracking approach to generate n bit Gray Codes
+Quotient and remainder dividing by 2^k (a power of 2)
+Print pair with maximum AND value in an array
+Smallest perfect power of 2 greater than n (without using arithmetic operators)
+Reverse bits using lookup table in O(1) time
+Variation in Nim Game
+Find largest element from array without using conditional operator
+Unset the last m bits
+Check if a number is divisible by 17 using bitwise operators
+Bitwise Sieve
+Largest number with binary representation is m 1’s and m-1 0’s
+Maximum AND value of a pair in an array
+Smallest number whose set bits are maximum in a given range
+Minimum flips to make all 1s in left and 0s in right | Set 1 (Using Bitmask)
+Find two numbers from their sum and XOR
+Print all subsequences of a string | Iterative Method
+Divisibility by 64 with removal of bits allowed
+Count set bits in a range
+Unique element in an array where all elements occur k times except one
+Find Unique pair in an array with pairs of numbers
+Check whether the number has only first and last bits set
+M-th smallest number having k number of set bits.
+Minimum bitwise operations to convert given a into b
+Minimum flips required to maximize a number with k set bits
+Count unset bits of a number
+Check whether all the bits are unset in the given range or not
+Toggle all bits after most significant bit
+Check if a number is power of 8 or not
+Position of rightmost common bit in two numbers
+Check whether all the bits are set in the given range
+Shuffle a pack of cards and answer the query
+Efficiently find first repeated character in a string without using any additional data structure in one traversal
+Change all even bits in a number to 0
+Computing INT_MAX and INT_MIN with Bitwise operations
+Add minimum number to an array so that the sum becomes even
+Get the position of rightmost unset bit
+Count pairs with Odd XOR
+Position of rightmost different bit
+Check if all bits of a number are set
+XOR of all subarray XORs | Set 2
+Case conversion (Lower to Upper and Vice Versa) of a string using BitWise operators in C/C++
+Highest power of 2 less than or equal to given number
+Find Two Missing Numbers | Set 2 (XOR based solution)
+Find the maximum subset XOR of a given set
 
 Hard :
 
