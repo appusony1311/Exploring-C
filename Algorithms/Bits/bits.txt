@@ -93,6 +93,11 @@ To print helloworld without using semicolon
 To interchange the bits in two given numbers
 
 
+Number problem
+Number series
+Number factor
+
+Still collect the tips from the DSA book + leet code tips
 
 https://www.geeksforgeeks.org/bitwise-algorithms/
 
@@ -377,7 +382,6 @@ https://www.geeksforgeeks.org/category/bit-magic/
 https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&category%5B%5D=Bit%20Magic
 https://www.geeksforgeeks.org/algorithms-gq/bit-algorithms-gq/
 https://www.youtube.com/playlist?list=PLqM7alHXFySF8B9KqOy6yz4vggu4tiNMP
-Still collect the tips from the DSA book + leet code tips
 
-Number Series
-Number problem
+
+
