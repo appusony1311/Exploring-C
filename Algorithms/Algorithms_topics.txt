@@ -36,6 +36,23 @@ Non-Recursive rumtimes
 C code snippets functions logics explaination for - 
 AVL Trees, red black trees,  DFS, BFS
 
+Divide & Conquer
+General Method
+Binary Search
+Maximum & Minimum (Divide and Conquer Method)
+	Time complexity By Considering Element Comparison
+	Time complexity By Considering all Comparisons
+Sorting Using Divide & Conquer
+	Merge Sorting
+	Quick Sorting (Partition Exchange Sort)
+
+Transform & Conquer
+Heaps & Heap Sort
+Create a Heap (Bottom-Up Heap Construction)
+Heap Sort Using Bottom up Approach
+Tracing of Heap Sort
+Analysis of Heap Sort using Bottom up Approach
+
 
 Dynamic Programming - check the topics to be covered in CTCI
 
@@ -55,23 +72,6 @@ Bellman-Ford AlgorithmTraveling Salesman Problem(TSP) - [COMPLETED]
 	TSP using brute Force - [COMPLETED]
 	TSP using Dynamic Programming - [COMPLETED]
 	
-Divide & Conquer
-General Method
-Binary Search
-Maximum & Minimum (Divide and Conquer Method)
-	Time complexity By Considering Element Comparison
-	Time complexity By Considering all Comparisons
-Sorting Using Divide & Conquer
-	Merge Sorting
-	Quick Sorting (Partition Exchange Sort)
-	
-Transform & Conquer
-Heaps & Heap Sort
-Create a Heap (Bottom-Up Heap Construction)
-Heap Sort Using Bottom up Approach
-Tracing of Heap Sort
-Analysis of Heap Sort using Bottom up Approach
-
 Limitations of Algorithm Power
 Introduction
 Lower Bound Arguments
