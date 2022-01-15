@@ -80,17 +80,16 @@ wild card searching
 
 
 
-misc:
+Misc:
 Reverse words in a String
 roman to decimal
 title case conversion
 good or bad strings
 
 
-
+Without builtins:
 concatenate strings without using strcat
 implement strstr
-
 strcmp
 strlen
 strcpy
@@ -103,7 +102,7 @@ strdup
 stoi
 itos
 
-
+Important templates:
 hashing
 slinding window
 two pointers
