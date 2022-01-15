@@ -1,1 +1,112 @@
 Reverse words in a given String
+
+
+
+
+
+
+
+Check if a string is substring of another
+check if a given string is shuffled substring of another string
+find the longest subtsring with k unique characters in a given string
+longest substring with atmost k distinct characters
+find longest substring with repetition of characters - to come back
+length of longest valid substring
+length of the longest substring without repeating characters
+number of substrings- containing all three characters - to come back
+replace the substring for balanced string
+max consecutive ones -iii - to come back
+get equal substrings within budget - to come back
+
+
+longest common substring - to come back & check - may be importat
+
+sliding window maximum - to be checked in arrays very importat
+
+
+check for subsequence
+check if a string is a subsequence of another
+shortest common supersequence
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+to print all permutations of a given string
+distinct permuatuins of a given string with duplicates
+combinations of string in digits
+all possible combinations of r elements in a array of size n
+print all possible words from phone digits
+print all combinations of word abbrevations
+valid word abbrevations
+print all combinations of balanced parantheses
+word break problem
+to generate all possible valid ip addresses from given string
+lexicographic rank of a string
+
+Palindromic
+check if a given string is palidrome or not
+longest palindromic substring set 2
+minimum insertions to form palindrome
+print all palindrome permutations of a string
+check if any anagram of a string is palindrome or not
+given a string test if it is a plaindroime. Ignore cases & non alphanumeric characters
+palindrome pairs in a array of unique words
+anagram palidrome
+
+Seggregation:
+split numberic, alphabtets & special symbols from a string
+given alternate digits, numbersm move them so that ll digits are on one side & numbers on other side
+sort an array of strings according to string lengths
+
+
+
+length of longest balanced parantheses prefix
+longest common prefix using sorting
+longest common prefix using word by word matching
+
+find if a string is interleaved of two other strings
+
+design tiny url or url shortner
+
+program to print first character uppercase in a sentence
+program to add two binary strings
+multiply large numbers represented as strings
+last index of one
+cycle leader iteration
+given an input string S write a function which returns treu, if it satisfies S=NT
+wild card searching
+
+
+
+misc:
+Reverse words in a String
+roman to decimal
+title case conversion
+good or bad strings
+
+
+
+concatenate strings without using strcat
+implement strstr
+
+strcmp
+strlen
+strcpy
+strtok
+memcpy
+memmove
+memcmp
+memset
+strdup
+stoi
+itos
+
+
+hashing
+slinding window
+two pointers
+longest common substring
+
+prepare the index sheet
