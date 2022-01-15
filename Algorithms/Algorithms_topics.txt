@@ -6,6 +6,8 @@ Refer to G-Drive for recorded sessions:
 SECTION - I
 -----------
 
+
+[COMPLETED]
 What is greedy method?
 Coin Change problem
 Knapsack problem
@@ -15,7 +17,7 @@ Prim's algorithm to find the minimum spanning tree
 Kruskal's algorithm to find the minimum spanning tree
 Huffman coding for data compression & encryption
 
-
+[COMPLETED]
 With the help of some c code examples please:
 Big O 
 Time complexity
@@ -44,14 +46,14 @@ Dynamic programming & memoization
 Multistage Graphs
 	Forward approach
 	Backward approach
-Warshal's Algorithm (Transitive Closure)
-Floyd's Algorithm (For all Pairs Shortest Paths Problem)
+Warshal's Algorithm (Transitive Closure) - [COMPLETED]
+Floyd's Algorithm (For all Pairs Shortest Paths Problem) 
 Optimal Binary search trees
-The 0/1 Knapsack Problem
-Knapsack Problem using memory functions
-Bellman-Ford AlgorithmTraveling Salesman Problem(TSP)
-	TSP using brute Force
-	TSP using Dynamic Programming
+The 0/1 Knapsack Problem - [COMPLETED]
+Knapsack Problem using memory functions - [COMPLETED]
+Bellman-Ford AlgorithmTraveling Salesman Problem(TSP) - [COMPLETED]
+	TSP using brute Force - [COMPLETED]
+	TSP using Dynamic Programming - [COMPLETED]
 	
 Divide & Conquer
 General Method
