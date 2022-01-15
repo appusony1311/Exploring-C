@@ -264,3 +264,73 @@ https://www.tryexponent.com/courses/software-engineering
 https://www.tryexponent.com/questions?src=nav
 https://www.youtube.com/results?search_query=system+design
 https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ
+
+
+Misc:
+Topics submitted:
+
+Strassen's Matrix Multiplication.
+Recursion
+Dynamic programming & memoization
+Multistage Graphs
+	Forward approach
+	Backward approach
+Warshal's Algorithm (Transitive Closure)
+Floyd's Algorithm (For all Pairs Shortest Paths Problem)
+Optimal Binary search trees
+The 0/1 Knapsack Problem
+Knapsack Problem using memory functions
+Bellman-Ford AlgorithmTraveling Salesman Problem(TSP)
+	TSP using brute Force
+	TSP using Dynamic Programming
+
+
+Completed sessions:
+
+TSP brute force and dynamic programming , Bellman Ford Algo
+Knapsack problem using dynamic programming and memory functions , Warshall algo for transitive closure
+
+	
+With the help of some c code examples please:
+Big O 
+Time complexity
+Space complexity
+Big 0, Big theta & big omega, little o notation
+Best case, worstcase & expected case
+Drop the constants
+Drop the Non-Dominant Terms
+Multi-Part Algorithms: Add vs Multiply
+Amortized time
+Log N Runtimes
+Recursive Runtimes
+Non-Recursive rumtimes
+
+
+What is greedy method?
+Coin Change problem
+Knapsack problem
+Job sequencing with Deadlines problem
+Dijkstra's algorithm to find the shortest distance from given source to destination
+Prim's algorithm to find the minimum spanning tree
+Kruskal's algorithm to find the minimum spanning tree
+Huffman coding for data compression & encryption
+
+
+0. Basics of graphs concepts:
+
+A tree is  actually a type of graph, but not all graphs are trees. Simply put, a tree is a connected graph without cycles.
+
+A graph is simply a collection of noed with edges between (some of( them.
+
+. Graphs can be either directed (like the following graph) or undirected. While directed edges are like a one-way street, undirected egdges are like a two-way street
+. The graph might consist of mulitple isolated subgraphs. if there is a path between every parit of vertices, it is called a "connected graph".
+. The graph can also have cycles(or not). An "acyclic graph" is one without cycles.
+
+
+1. Adjaceny List
+2. Adjacency Matrices
+3. Depth-First Search (DFS)
+4. Breadth-First Search (BFS)
+5. Bi-directional search
+6. Topological sort
+7. Dijkstra's algorithm
