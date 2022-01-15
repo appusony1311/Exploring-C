@@ -36,6 +36,18 @@ Non-Recursive rumtimes
 C code snippets functions logics explaination for - 
 AVL Trees, red black trees,  DFS, BFS
 
+
+Priority Queues and Heaps
+
+7.1 What is a Priority Queue?
+7.2 Priority Queue ADT
+7.3 Priority Queue Applications
+7.4 Priority Queue Implementations
+7.5 Heaps and Binary Heaps
+7.6 Binary Heaps
+7.7 Heapsort
+7.8 Priority Queues [Heaps]: Problems & Solutions
+
 Divide & Conquer
 General Method
 Binary Search
@@ -153,25 +165,6 @@ Disjoint Sets ADT
 ---------------------------------
 
 SECTION - II
-------------
-	
-Others:
-
-Priority Queues and Heaps
-
-7.1 What is a Priority Queue?
-7.2 Priority Queue ADT
-7.3 Priority Queue Applications
-7.4 Priority Queue Implementations
-7.5 Heaps and Binary Heaps
-7.6 Binary Heaps
-7.7 Heapsort
-7.8 Priority Queues [Heaps]: Problems & Solutions
-
-
----------------------------------
-
-SECTION - III
 -------------
 
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
@@ -235,12 +228,12 @@ Rat in a Maze Problem
 Word Boggle
 Generate IP Addresses
 
-SECTION - IV
+SECTION - III
 -------------
 Solutions to the Algorithms_DesignKleinberg's book.
 
-SECTION -V
-----------
+SECTION - IV
+------------
 Important:
 
 Datastructure https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
