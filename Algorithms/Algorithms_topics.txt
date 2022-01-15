@@ -91,6 +91,11 @@ Branch & Bound
 Approximation Algorithms for NP-Hard Problems
 	Approximation Algorithms for Travelling Salesman Problem(TSP)
 	Approximation Algorithm for Knapsack Problem
+	
+Decrease & Conquer
+Topological Sorting
+	Topological Sort Using DFS Method.
+	Toplogical Sort Using Source Removal Method.
 
 ---------------------------------
 
