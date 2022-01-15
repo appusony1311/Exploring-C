@@ -80,17 +80,16 @@ wild card searching
 
 
 
-misc:
+Misc:
 Reverse words in a String
 roman to decimal
 title case conversion
 good or bad strings
 
 
-
+Without builtins:
 concatenate strings without using strcat
 implement strstr
-
 strcmp
 strlen
 strcpy
@@ -103,10 +102,35 @@ strdup
 stoi
 itos
 
-
+Important templates:
 hashing
 slinding window
 two pointers
 longest common substring
 
 prepare the index sheet
+
+
+Sliding window problems:
+
+Count of substrings from given Ternary strings containing characters at least once
+Length of the longest substring that does not contain any vowel
+Count number of substrings having at least K distinct characters
+Check if a string contains an anagram of another string as its substring
+Longest substring where all the characters appear at least K times | Set 3
+Smallest substring with each letter occurring both in uppercase and lowercase
+Longest Substring of 1’s after removing one character
+Length of smallest substring of a given string which contains another string as subsequence
+Substring of length K having maximum frequency in the given string
+Count of substrings of a given Binary string with all characters same
+Generate a string whose all K-size substrings can be concatenated to form the given string
+Minimum flips required in a binary string such that all K-size substring contains 1
+Count of substrings of length K with exactly K distinct characters
+Maximum number of set bits count in a K-size substring of a Binary String
+Length of the smallest substring which contains all vowels
+ Count of substrings which contains a given character K times
+ Minimum length substring with exactly K distinct characters
+ Find number of substrings of length k whose sum of ASCII value of characters is divisible by k
+ Lexicographically smallest and largest substring of size k
+ Convert all substrings of length ‘k’ from base ‘b’ to decimal
+ Anagram Substring Search (Or Search for all permutations)

@@ -25,20 +25,32 @@ Flip the bits of given number
 Find the most significant set bit of a number
 Quickly check if bits in a number are in alternate pattern
 
+-----------------------------------------------------------
 
 Macro to set a bit
 Clear a bit
 Toggle a bit
 Checking if bit at nth position is set or not
-Inverting every bit of a number/1s complement
-2s complement of the no.
-Stripping off the lowest set bit
-Getting lowest set bit of a number
+Changing nth bit to x
+Show bits
+
+Given register address how to write a value to it.
+
+Conversions of a given number
 To sum of given digits
 Reverse a number without recursion
 To check the given number is factorial or not
 Palindrome or not
 Rotation of bits
+
+Calculate 2^n
+Check if given 32 bit integer is power of 2
+Find logbase2 of a 32 bit integer
+
+To check whether little endian to big endian
+To convert 32 bit from LE to BE
+S to I
+I to S
 
 Add without using + operator [Half adder logic]
 Full adder logic
@@ -47,18 +59,18 @@ Multiply without using x operator
 Divide 2 nos without using / operator
 Divisible by 2 using right shift operation
 Multiply by 2 using left shift operator
-
 Find xor without using xor
+Inverting every bit of a number/1s complement
+2s complement of the no.
+Stripping off the lowest set bit
+Getting lowest set bit of a number
+
 Clear all bits from lsb to ith bit
 Clearing all bits from msb to ith bit
-Changing nth bit to x
+
 Upper case English alphabet to lowercase
 Lowercase English alphabet to uppercase
-Show bits
-Shift even & odd positions
-Calculate 2^n
-Check if given 32 bit integer is power of 2
-Find logbase2 of a 32 bit integer
+
 Count set bits in integer
 Position of rightmost set bit
 To clear rightmost set bit
@@ -66,13 +78,17 @@ Position of rightmost set bit
 Turn off rightmost set bit
 Count total set bits in all nos from 1 to n
 Check if a number is even or odd
+
 Quickest way to swap 2 no.s
 Swap every bits
 Swap all odd & even bits
 To swap bits in a given number 
 Set mth to nth bit
-Conversions of a given number
-Given register address how to write a value to it.
+Shift even & odd positions
+To interchange the bits in two given numbers
+To interchange the bits in a given number
+
+Direct XOR without using loops
 Game of XOR
 Find bit at a position
 Odd occurring element
@@ -80,19 +96,15 @@ Missing number array
 Index of a extra element
 Power set
 
-
-To check whether little endian to big endian
-To convert 32 bit from LE to BE
-S to I
-I to S
-
 To check the given number is factorial or not
 To print 1 to 100 without using loops
 To print helloworld without using semicolon
 
-To interchange the bits in two given numbers
+Number problem
+Number series
+Number factor
 
-
+Still collect the tips from the DSA book + leet code tips
 
 https://www.geeksforgeeks.org/bitwise-algorithms/
 
@@ -377,7 +389,3 @@ https://www.geeksforgeeks.org/category/bit-magic/
 https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&category%5B%5D=Bit%20Magic
 https://www.geeksforgeeks.org/algorithms-gq/bit-algorithms-gq/
 https://www.youtube.com/playlist?list=PLqM7alHXFySF8B9KqOy6yz4vggu4tiNMP
-Still collect the tips from the DSA book + leet code tips
-
-Number Series
-Number problem
