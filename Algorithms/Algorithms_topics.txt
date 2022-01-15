@@ -97,13 +97,6 @@ Topological Sorting
 	Topological Sort Using DFS Method.
 	Toplogical Sort Using Source Removal Method.
 
----------------------------------
-
-SECTION - II
-------------
-	
-Others:
-
 Hashing
 
 14.1 What is Hashing?
@@ -144,17 +137,6 @@ Hashing
 15.14 Suffix Trees
 15.15 String Algorithms: Problems & Solutions
 
-Priority Queues and Heaps
-
-7.1 What is a Priority Queue?
-7.2 Priority Queue ADT
-7.3 Priority Queue Applications
-7.4 Priority Queue Implementations
-7.5 Heaps and Binary Heaps
-7.6 Binary Heaps
-7.7 Heapsort
-7.8 Priority Queues [Heaps]: Problems & Solutions
-
 
 Disjoint Sets ADT
 
@@ -167,6 +149,25 @@ Disjoint Sets ADT
 8.9 Fast UNION Implementations (Quick FIND)
 8.10 Summary
 8.11 Disjoint Sets: Problems & Solutions
+
+---------------------------------
+
+SECTION - II
+------------
+	
+Others:
+
+Priority Queues and Heaps
+
+7.1 What is a Priority Queue?
+7.2 Priority Queue ADT
+7.3 Priority Queue Applications
+7.4 Priority Queue Implementations
+7.5 Heaps and Binary Heaps
+7.6 Binary Heaps
+7.7 Heapsort
+7.8 Priority Queues [Heaps]: Problems & Solutions
+
 
 ---------------------------------
 
