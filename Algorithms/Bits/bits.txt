@@ -34,6 +34,8 @@ Checking if bit at nth position is set or not
 Changing nth bit to x
 Show bits
 
+Given register address how to write a value to it.
+
 Conversions of a given number
 To sum of given digits
 Reverse a number without recursion
@@ -82,11 +84,11 @@ Swap every bits
 Swap all odd & even bits
 To swap bits in a given number 
 Set mth to nth bit
-
 Shift even & odd positions
 To interchange the bits in two given numbers
+To interchange the bits in a given number
 
-Given register address how to write a value to it.
+Direct XOR without using loops
 Game of XOR
 Find bit at a position
 Odd occurring element
