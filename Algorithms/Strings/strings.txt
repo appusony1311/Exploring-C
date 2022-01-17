@@ -7,7 +7,7 @@ good or bad strings
 Check whether 2 strings are anagram of each other
 Given in a sequence of words, print all anagrams together | set 1
 Check if 2 strings are K-anagrams or not.
-Anagram substring search(or serahc for all permutations)
+Anagram substring search(or search for all permutations)
 
 To check if strings are rotations of each other or not.
 Check if a string can be obtained by rotating another string by 2 places.
@@ -16,8 +16,8 @@ Check if a string can be obtained by rotating another string by d places.
 Print string in a wave pattern
 
 Given a string find its first non-repeating character
-Return maximum occuring character in an input string
-Print the string by ignoring alternate occurences of any character
+Return maximum occurring character in an input string
+Print the string by ignoring alternate occurrences of any character
 
 Run the length encoding
 Find the kth character of decrypted string
@@ -25,12 +25,12 @@ Extract maximum numeric value from a given string
 Length of minimized compressed string
 
 Find uncommon character of the 2 strings
-Conactenated string with uncommon charcters of 2 Strings
+Concatenated string with uncommon characters of 2 Strings
 
 Second most repeated word in a sequence
 Most frequent word in a array of strings
 Calculate the frequency of each word in the given string
-Minimum distrnace b/w words of a string
+Minimum distance b/w words of a string
 Program to find Smallest & largest word in a String
 
 Remove duplicates from a given String
@@ -40,9 +40,9 @@ Remove all consecutive duplicates from the string
 
 Replace every character of a string by a different character
 Replace a character C1 with C2 & C2 with C1 in a String
-Replace all occurences of  character X with character Y in a given String
+Replace all occurrences of  character X with character Y in a given String
 
-Window Sliding techinque ->  very important
+Window Sliding technique: ->  very important
 Find the smallest window in a string containing all characters of another string
 Smallest window that contains all characters of string itself
 Check if a string is substring of another
@@ -51,77 +51,75 @@ Find the longest substring with K unique character in a given string
 Longest Substring with atmost K characters from the given set of characters
 Longest substring with atmost k distinct characters
 Length of longest substring without repeating characters
-Length of Longest valid susbstring
+Length of Longest valid substring
 Number of substrings of a string
 Number of substrings with count of each character as K
-Replace two subtrings (of a string) with each other
+Replace two substrings (of a string) with each other
 Longest equal substring with cost less than K (get equal substrings within budget)
 Find if first string is a subsequence of second
 List of other sliding window problems
 
 Longest common subsequence
 print longest common subsequence
-Shortest common supersequence
+Shortest common super sequence
 check if a string is a subsequence of another
 check for subsequence
 
-longest common substring - to come back & check - may be importat
+longest common substring - to come back & check - may be important
 find longest substring with repetition of characters - to come back
 number of substrings- containing all three characters - to come back
 replace the substring for balanced string
 max consecutive ones -iii - to come back
 get equal substrings within budget - to come back
 
-sliding window maximum - to be rechecked in arrays very importat
-
-------------------------------------------------------------------------------------------------------------------------
+sliding window maximum - to be rechecked in arrays very important
 
 Permutations & Combinations:
 to print all permutations of a given string
-distinct permuatuins of a given string with duplicates
+distinct permutations of a given string with duplicates
 combinations of string in digits
 all possible combinations of r elements in a array of size n
 print all possible words from phone digits
-print all combinations of word abbrevations
-valid word abbrevations
-print all combinations of balanced parantheses
+print all combinations of word abbreviations
+valid word abbreviations
+print all combinations of balanced parentheses
 word break problem
 to generate all possible valid ip addresses from given string
 lexicographic rank of a string
 
 Palindromic:
-check if a given string is palidrome or not
+check if a given string is palindrome or not
 longest palindromic substring set 2
 minimum insertions to form palindrome
 print all palindrome permutations of a string
 check if any anagram of a string is palindrome or not
-given a string test if it is a plaindroime. Ignore cases & non alphanumeric characters
+given a string test if it is a palindrome. Ignore cases & non alphanumeric characters
 palindrome pairs in a array of unique words
-anagram palidrome
-
-Seggregation:
-split numberic, alphabtets & special symbols from a string
-given alternate digits, numbersm move them so that ll digits are on one side & numbers on other side
+anagram palindrome
+	
+Segregation:
+split numeric, alphabets & special symbols from a string
+given alternate digits, numbers move them so that all digits are on one side & numbers on other side
 sort an array of strings according to string lengths
 
-length of longest balanced parantheses prefix
+length of longest balanced parenthesis prefix
 longest common prefix using sorting
 longest common prefix using word by word matching
 
 find if a string is interleaved of two other strings
 
-design tiny url or url shortner
+design tiny url or url shortener
 
 program to print first character uppercase in a sentence
 program to add two binary strings
 multiply large numbers represented as strings
 last index of one
 cycle leader iteration
-given an input string S write a function which returns treu, if it satisfies S=NT
+given an input string S write a function which returns true, if it satisfies S=NT
 wild card searching
 
 
-Without builtins:
+Without built-ins:
 concatenate strings without using strcat
 implement strstr
 strcmp
@@ -138,7 +136,7 @@ itos
 
 Important templates:
 hashing
-slinding window
+sliding window
 two pointers
 longest common substring
 
@@ -146,7 +144,6 @@ prepare the index sheet
 
 
 Lists of Sliding window problems:
-
 Count of substrings from given Ternary strings containing characters at least once
 Length of the longest substring that does not contain any vowel
 Count number of substrings having at least K distinct characters
@@ -162,9 +159,9 @@ Minimum flips required in a binary string such that all K-size substring contain
 Count of substrings of length K with exactly K distinct characters
 Maximum number of set bits count in a K-size substring of a Binary String
 Length of the smallest substring which contains all vowels
- Count of substrings which contains a given character K times
- Minimum length substring with exactly K distinct characters
- Find number of substrings of length k whose sum of ASCII value of characters is divisible by k
- Lexicographically smallest and largest substring of size k
- Convert all substrings of length ‘k’ from base ‘b’ to decimal
- Anagram Substring Search (Or Search for all permutations)
+Count of substrings which contains a given character K times
+Minimum length substring with exactly K distinct characters
+Find number of substrings of length k whose sum of ASCII value of characters is divisible by k
+Lexicographically smallest and largest substring of size k
+Convert all substrings of length ‘k’ from base ‘b’ to decimal
+Anagram Substring Search (Or Search for all permutations)
