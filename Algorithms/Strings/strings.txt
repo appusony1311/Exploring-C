@@ -33,7 +33,7 @@ shortest common supersequence
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Permutations & Combinations
+Permutations & Combinations:
 to print all permutations of a given string
 distinct permuatuins of a given string with duplicates
 combinations of string in digits
