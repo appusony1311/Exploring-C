@@ -33,6 +33,7 @@ shortest common supersequence
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Permutations & Combinations
 to print all permutations of a given string
 distinct permuatuins of a given string with duplicates
 combinations of string in digits
@@ -45,7 +46,7 @@ word break problem
 to generate all possible valid ip addresses from given string
 lexicographic rank of a string
 
-Palindromic
+Palindromic:
 check if a given string is palidrome or not
 longest palindromic substring set 2
 minimum insertions to form palindrome
@@ -59,8 +60,6 @@ Seggregation:
 split numberic, alphabtets & special symbols from a string
 given alternate digits, numbersm move them so that ll digits are on one side & numbers on other side
 sort an array of strings according to string lengths
-
-
 
 length of longest balanced parantheses prefix
 longest common prefix using sorting
@@ -111,7 +110,7 @@ longest common substring
 prepare the index sheet
 
 
-Sliding window problems:
+Lists of Sliding window problems:
 
 Count of substrings from given Ternary strings containing characters at least once
 Length of the longest substring that does not contain any vowel
