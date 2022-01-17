@@ -134,12 +134,6 @@ strdup
 stoi
 itos
 
-Important templates:
-hashing
-sliding window
-two pointers
-longest common substring
-
 prepare the index sheet
 
 
@@ -165,3 +159,9 @@ Find number of substrings of length k whose sum of ASCII value of characters is 
 Lexicographically smallest and largest substring of size k
 Convert all substrings of length ‘k’ from base ‘b’ to decimal
 Anagram Substring Search (Or Search for all permutations)
+
+Important templates:
+hashing
+sliding window
+two pointers
+longest common substring
