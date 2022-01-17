@@ -1,35 +1,78 @@
 Reverse words in a given String
+Reverse string without using temp variable
+roman to decimal
+title case conversion
+good or bad strings
 
+Check whether 2 strings are anagram of each other
+Given in a sequence of words, print all anagrams together | set 1
+Check if 2 strings are K-anagrams or not.
+Anagram substring search(or serahc for all permutations)
 
+To check if strings are rotations of each other or not.
+Check if a string can be obtained by rotating another string by 2 places.
+Check if a string can be obtained by rotating another string by d places.
 
+Print string in a wave pattern
 
+Given a string find its first non-repeating character
+Return maximum occuring character in an input string
+Print the string by ignoring alternate occurences of any character
 
+Run the length encoding
+Find the kth character of decrypted string
+Extract maximum numeric value from a given string
+Length of minimized compressed string
 
+Find uncommon character of the 2 strings
+Conactenated string with uncommon charcters of 2 Strings
 
+Second most repeated word in a sequence
+Most frequent word in a array of strings
+Calculate the frequency of each word in the given string
+Minimum distrnace b/w words of a string
+Program to find Smallest & largest word in a String
+
+Remove duplicates from a given String
+Remove duplicates from string keeping the order according to last occurences
+Remove characters from the first string which are present in the second string
+Remove all consecutive duplicates from the string
+
+Replace every character of a string by a different character
+Replace a character C1 with C2 & C2 with C1 in a String
+Replace all occurences of  character X with character Y in a given String
+
+Window Sliding techinque ->  very important
+Find the smallest window in a string containing all characters of another string
+Smallest window that contains all characters of string itself
 Check if a string is substring of another
-check if a given string is shuffled substring of another string
-find the longest subtsring with k unique characters in a given string
-longest substring with atmost k distinct characters
+Check if the given string is shuffled substring of another string
+Find the longest substring with K unique character in a given string
+Longest Substring with atmost K characters from the given set of characters
+Longest substring with atmost k distinct characters
+Length of longest substring without repeating characters
+Length of Longest valid susbstring
+Number of substrings of a string
+Number of substrings with count of each character as K
+Replace two subtrings (of a string) with each other
+Longest equal substring with cost less than K (get equal substrings within budget)
+Find if first string is a subsequence of second
+List of other sliding window problems
+
+Longest common subsequence
+print longest common subsequence
+Shortest common supersequence
+check if a string is a subsequence of another
+check for subsequence
+
+longest common substring - to come back & check - may be importat
 find longest substring with repetition of characters - to come back
-length of longest valid substring
-length of the longest substring without repeating characters
 number of substrings- containing all three characters - to come back
 replace the substring for balanced string
 max consecutive ones -iii - to come back
 get equal substrings within budget - to come back
 
-
-longest common substring - to come back & check - may be importat
-
-sliding window maximum - to be checked in arrays very importat
-
-
-check for subsequence
-check if a string is a subsequence of another
-shortest common supersequence
-
-
-
+sliding window maximum - to be rechecked in arrays very importat
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -76,14 +119,6 @@ last index of one
 cycle leader iteration
 given an input string S write a function which returns treu, if it satisfies S=NT
 wild card searching
-
-
-
-Misc:
-Reverse words in a String
-roman to decimal
-title case conversion
-good or bad strings
 
 
 Without builtins:
