@@ -155,7 +155,6 @@
 //Multiplication with a power of 2
 //Check if n is divisible by power of 2 without using arithmetic operators
 //Toggle all odd bits of a number
-//Count set bits using Python List comprehension
 //Check if a number is positive, negative or zero using bit operators
 //Modify a bit at a given position
 //CHAR_BIT in C
@@ -198,27 +197,12 @@
 //Determine if a string has all Unique Characters
 //Next greater integer having one more number of set bits
 //Check if two numbers are bit rotations of each other or not
-//Previous smaller integer having one less number of set bits
-//Maximize a given unsigned number number by swapping bits at it’s extreme positions
 //Set bits in N equals to M in the given range
-//Count number of distinct sum subsets within given range
-//Baum Sweet Sequence
-//Minimum digits to remove to make a number Perfect Square
-//Number whose sum of XOR with given array range is maximum
-//Odd numbers in N-th row of Pascal’s Triangle
-//Check if bitwise AND of any subset is power of two
-//Space optimization using bit manipulations
-//Fast inverse square root
-//Find one extra character in a string
+
 //Number of unique triplets whose XOR is zero
-//Fibbinary Numbers (No consecutive 1s in binary)
 //Fibbinary Numbers (No consecutive 1s in binary) – O(1) Approach
 //Divide two integers without using multiplication, division and mod operator
-//Check if binary string multiple of 3 using DFA
-//Count set bits in an integer using Lookup Table
-//Alternate bits of two numbers to create a new number
-//Decimal representation of given binary string is divisible by 20 or not
-//Check if actual binary representation of a number is palindrome
+
 //Reverse actual bits of the given number
 //Addition of two numbers without carry
 
