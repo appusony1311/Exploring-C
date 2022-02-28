@@ -192,7 +192,6 @@
 //Efficiently check if a string has duplicates without using any additional data structure
 //Count trailing zero bits using lookup table
 //Count smaller numbers whose XOR with n produces greater value
-//Check divisibility in a binary stream
 //Multiplication of two numbers with shift operator
 //Determine if a string has all Unique Characters
 //Next greater integer having one more number of set bits
