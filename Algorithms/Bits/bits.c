@@ -38,14 +38,298 @@
 #define bitcheck(byte,nbit) ((byte) &   (1<<(nbit)))
 
 //Changing nth bit to x
+// Bit n will be set if x is 1 and cleared if x is 0.
+number ^= (-x ^ number) & (1LL << n);
+
 //Modify a bit at a given position
+Given a number n, a position p and a binary value b, we need to change the bit at position p in n to value b.
+
+Examples : 
+
+Input : n = 7, p = 2, b = 0
+Output : 3
+7 is 00000111 after clearing bit at 
+2rd position, it becomes 0000011.
+ 
+We first create a mask that has set bit only 
+at given position using bit wise shift.
+      mask = 1 << position
+
+Then to change value of bit to b, we first
+make it 0 using below operation
+      value & ~mask
+
+After changing it 0, we change it to b by
+doing or of above expression with following
+(b << p) & mask, i.e., we return
+      ((n & ~mask) | (b << p))
+  
+// CPP program to modify a bit at position
+// p in n to b.
+#include <bits/stdc++.h>
+using namespace std;
+ 
+// Returns modified n.
+int modifyBit(int n, int p, int b)
+{
+    int mask = 1 << p;
+    return ((n & ~mask) | (b << p));
+}
+ 
+// Driver code
+int main()
+{
+    cout << modifyBit(6, 2, 0) << endl;
+    cout << modifyBit(6, 5, 1) << endl;
+    return 0;
+}
+ 
 //Show bits
+// C program to demonstrate the
+// showbits() function
+#include <stdio.h>
+void showbits (int n)
+{
+  int i, k, andmask;
+ 
+  for (i = 15; i >= 0;i--)
+  {
+    andmask = 1 << i;
+    k = n & andmask;
+    k == 0 ? printf ("0") : printf ("1");
+  }
+}
+ 
+// Driver code
+int main()
+{
+  showbits(5);   
+  return 0;
+}
+Output
+0000000000000101
+
+Explanation
+
+All that is being done in this function is using an AND operator and a variable andmask. andmask variable is used to check the status of individual bits. If the bit is OFF we print a 0 otherwise we print a 1.
+The first time through the loop, the variable andmask will contain the value 1000000000000000, which is obtained by left-shifting 1, fifteen places.
+If the variable n’s most significant bit is 0, then k would contain a value 0, otherwise, it would contain a non-zero value.
+If k contains 0 then printf( ) will print out 0 otherwise it will print out 1.
+On the second go-around of the loop, the value of i is decremented, and hence the value of andmask changes, which will now be 100000000000000. This checks whether the next most significant bit is 1 or 0, and prints it out accordingly. The same operation is repeated for all bits in the number.
 
 //Add without using + operator [Half adder logic]
+  
+Above is simple Half Adder logic that can be used to add 2 single bits. We can extend this logic for integers. If x and y don’t have set bits at same position(s), then bitwise XOR (^) of x and y gives the sum of x and y. To incorporate common set bits also, bitwise AND (&) is used. Bitwise AND of x and y gives all carry bits. We calculate (x & y) << 1 and add it to x ^ y to get the required result. 
+// C Program to add two numbers
+// without using arithmetic operator
+#include<stdio.h>
+ 
+int Add(int x, int y)
+{
+    // Iterate till there is no carry 
+    while (y != 0)
+    {
+        // carry now contains common
+        //set bits of x and y
+        unsigned carry = x & y; 
+ 
+        // Sum of bits of x and y where at
+        //least one of the bits is not set
+        x = x ^ y;
+ 
+        // Carry is shifted by one so that adding
+        // it to x gives the required sum
+        y = carry << 1;
+    }
+    return x;
+}
+ 
+int main()
+{
+    printf("%d", Add(15, 32));
+    return 0;
+}
+  
+  
 //Full adder logic
+
+
 //Subtract two numbers without using arithmetic operators
+Write a function subtract(x, y) that returns x-y where x and y are integers. The function should not use any of the arithmetic operators (+, ++, –, -, .. etc). 
+The idea is to use bitwise operators. Addition of two numbers has been discussed using Bitwise operators. Like addition, the idea is to use subtractor logic. 
+The truth table for the half subtractor is given below. 
+
+X     Y     Diff     Borrow
+0     0     0     0
+0     1     1     1
+1     0     1     0
+1     1     0     0
+  
+From the above table one can draw the Karnaugh map for “difference” and “borrow”.
+So, Logic equations are: 
+
+    Diff   = y ⊕ x
+    Borrow = x' . y 
+      
+  // C program to Subtract two numbers
+// without using arithmetic operators
+#include<stdio.h>
+ 
+int subtract(int x, int y)
+{
+    // Iterate till there
+    // is no carry
+    while (y != 0)
+    {
+        // borrow contains common
+        // set bits of y and unset
+        // bits of x
+        int borrow = (~x) & y;
+ 
+        // Subtraction of bits of x
+        // and y where at least one
+        // of the bits is not set
+        x = x ^ y;
+ 
+        // Borrow is shifted by one
+        // so that subtracting it from
+        // x gives the required sum
+        y = borrow << 1;
+    }
+    return x;
+}
+ 
+// Driver Code
+int main()
+{
+    int x = 29, y = 13;
+    printf("x - y is %d", subtract(x, y));
+    return 0;
+}
+
+Output : 
+
+x - y is 16
+Time Complexity: O(log y)
+
+Auxiliary Space: O(1)
+
 //Multiply without using x operator
+One interesting method is the Russian peasant algorithm. The idea is to double the first number and halve the second number repeatedly till the second number doesn’t become 1. In the process, whenever the second number become odd, we add the first number to result (result is initialized as 0) 
+The following is simple algorithm. 
+  Let the two given numbers be 'a' and 'b'
+1) Initialize result 'res' as 0.
+2) Do following while 'b' is greater than 0
+   a) If 'b' is odd, add 'a' to 'res'
+   b) Double 'a' and halve 'b'
+3) Return 'res'. 
+  
+  
+#include <iostream>
+using namespace std;
+ 
+// A method to multiply two numbers using Russian Peasant method
+unsigned int russianPeasant(unsigned int a, unsigned int b)
+{
+    int res = 0; // initialize result
+ 
+    // While second number doesn't become 1
+    while (b > 0)
+    {
+        // If second number becomes odd, add the first number to result
+        if (b & 1)
+            res = res + a;
+ 
+        // Double the first number and halve the second number
+        a = a << 1;
+        b = b >> 1;
+    }
+    return res;
+}
+ 
+// Driver program to test above function
+int main()
+{
+    cout << russianPeasant(18, 1) << endl;
+    cout << russianPeasant(20, 12) << endl;
+    return 0;
+}
+
+Output: 
+
+18
+240
+Time Complexity: O(log2b)
+
+Auxiliary Space: O(1)
+
+How does this work? 
+The value of a*b is same as (a*2)*(b/2) if b is even, otherwise the value is same as ((a*2)*(b/2) + a). In the while loop, we keep multiplying ‘a’ with 2 and keep dividing ‘b’ by 2. If ‘b’ becomes odd in loop, we add ‘a’ to ‘res’. When value of ‘b’ becomes 1, the value of ‘res’ + ‘a’, gives us the result. 
+Note that when ‘b’ is a power of 2, the ‘res’ would remain 0 and ‘a’ would have the multiplication. See the reference for more information.
+  
+Reference: 
+http://mathforum.org/dr.math/faq/faq.peasant.html
+
+
 //Divide 2 nos without using / operator
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+// Function to perform division `x/y` of two numbers `x` and `y`
+// without using the division operator in the code
+int divide(int x, int y)
+{
+    // handle divisibility by 0
+    if (y == 0)
+    {
+        printf("Error!! Divisible by 0");
+        exit(-1);
+    }
+ 
+    // store sign of the result
+    int sign = 1;
+    if (x * y < 0) {
+        sign = -1;
+    }
+ 
+    // convert both dividend and divisor to positive
+    x = abs(x);
+    y = abs(y);
+ 
+    unsigned mask = 1;
+    unsigned quotient = 0;
+ 
+    while (y <= x)
+    {
+        y <<= 1;
+        mask <<= 1;
+    }
+ 
+    while (mask > 1)
+    {
+        y >>= 1;
+        mask >>= 1;
+        if (x >= y)
+        {
+            x -= y;
+            quotient |= mask;
+        }
+    }
+ 
+    printf("The remainder is %d\n", x);
+    return sign * quotient;
+}
+ 
+int main()
+{
+    int dividend = 22;
+    int divisor = -7;
+ 
+    printf("The quotient is %d\n", divide(dividend, divisor));
+ 
+    return 0;
+}
 //Divisible by 2 using right shift operation
 //Multiply by 2 using left shift operator
 //Find xor without using xor
