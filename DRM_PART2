@@ -1,0 +1,37 @@
+DAY 1:
+https://blog.csdn.net/hexiaolong2009/article/details/83721242 - 最简单的DRM应用程序 （single-buffer）
+https://blog.csdn.net/hexiaolong2009/article/details/84452020 - 最简单的DRM应用程序 （double-buffer）
+
+https://blog.csdn.net/hexiaolong2009/article/details/87211230 - DRM application advanced (Property)
+https://blog.csdn.net/hexiaolong2009/article/details/87392266 - DRM应用程序进阶 （atomic-crtc）
+https://blog.csdn.net/hexiaolong2009/article/details/87824581 - DRM application advanced (atomic-plane)
+https://www.kernel.org/doc/html/latest/gpu/drm-kms.html#kms-properties
+https://blog.csdn.net/hexiaolong2009/article/details/84674127 - The simplest DRM application (page-flip)
+https://blog.csdn.net/hexiaolong2009/article/details/84934294 - 最简单的DRM应用程序 （plane-test）
+https://blog.csdn.net/boyemachao/article/details/96989594 - DRM（Direct Rendering Manager）学习简介 ---> Very important
+
+DAY 2:
+https://blog.csdn.net/kris_fei/article/details/79088907 - [RK3399][Android7.1] DRM Framebuffer in Display
+https://blog.csdn.net/zhuyong006/article/details/80942455 - [RK3399][Android7.1] Display中的DRM和Framebuffer注册流程 - [RK3399][Android7.1] DRM and Framebuffer registration process in Display -  ---> Very important
+https://blog.csdn.net/boyemachao/article/details/83576684 - Code analysis of linux drm architecture and linux drm architecture
+https://blog.csdn.net/walletiger/article/details/46596399 - Code analysis of linux drm architecture
+
+DAY 3:
+https://blog.csdn.net/xjq163/article/details/85681572 - Linux DRM driver usage example
+https://blog.csdn.net/hexiaolong2009/article/details/89810355 - DRM driver development (opening)
+https://blog.csdn.net/jingxia2008/article/details/48804859 - How does the drm driver create the fb device?
+
+DAY 4:
+https://blog.csdn.net/RadianceBlau/article/details/59547360 - Linux driver from shallow to deep series: one of the display subsystems (drawing graphics on the screen through FrameBuffer)
+https://blog.csdn.net/yangkuanqaz85988/article/details/48657615 - Linux DRM Graphic display brief introduction
+https://blog.csdn.net/prike/article/details/79063778 - LInux DRM Developer Guide
+
+DAY5:
+https://dvdhrm.wordpress.com/2012/09/13/linux-drm-mode-setting-api/
+https://dvdhrm.wordpress.com/2012/12/21/advanced-drm-mode-setting-api/
+https://www.kernel.org/doc/html/latest/gpu/drm-kms.html#kms-properties
+https://blog.csdn.net/goodboychina/article/details/23615367 - Linux ModeSetting learning
+https://blog.csdn.net/lyy901135/article/details/99695607 - Linux libdrm library introduction tutorial
+
+DAY6:
+https://01.org/linuxgraphics/gfx-docs/drm/gpu/index.html
