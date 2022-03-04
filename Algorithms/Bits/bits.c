@@ -3,12 +3,8 @@
 
 //Add two number in binary representation 
 //Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
-
-
 //Given an integer find next power of 2 greater than this integer
 //Get first 2^n gray code - GrayCode.java
-
-
 
 //Macro to set a bit
 #define bitset(byte,nbit)   ((byte) |=  (1<<(nbit)))
