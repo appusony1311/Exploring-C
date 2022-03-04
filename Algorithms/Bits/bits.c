@@ -1,7 +1,6 @@
 //bits.c
 
 
-//Add two number in binary representation 
 //Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
 //Given an integer find next power of 2 greater than this integer
 //Get first 2^n gray code - GrayCode.java
@@ -328,14 +327,15 @@ int main()
 //Multiplication with a power of 2
 //Multiplication of two numbers with shift operator
 
-//Add 1 to a given number
-//Add two bit strings
-//Addition of two numbers without carry
-
 //Efficient method for 2’s complement of a binary string
 //Find One’s Complement of an Integer
 //Inverting every bit of a number/1s complement
 //2s complement of the no.
+
+//Add two number in binary representation 
+//Add 1 to a given number
+//Add two bit strings
+//Addition of two numbers without carry
 
 //Given register address how to write a value to it.
 //Conversions of a given number
@@ -420,6 +420,19 @@ int main()
 //Position of rightmost common bit in two numbers
 //Position of rightmost different bit
 
+//Count - types
+//Count set bits in integer
+//Count total set bits in all numbers from 1 to n
+//Count total bits in a number
+//Count unset bits of a number
+//Count unset bits in a range
+//Count set bits in a range
+//Count number of bits to be flipped to convert A to B
+//Count minimum bits to flip such that XOR of A and B equal to C
+//Count all pairs of an array which differ in K bits
+//Count trailing zero bits using lookup table
+//Count smaller numbers whose XOR with n produces greater value
+
 //Checking - types
 //Check if all bits of a number are set
 //Check whether all the bits are set in the given range
@@ -434,19 +447,6 @@ int main()
 //Quickly check if bits in a number are in alternate pattern
 //Check whether the two numbers differ at one bit position only
 //Check if given four integers (or sides) make rectangle
-
-//Count - types
-//Count set bits in integer
-//Count total set bits in all numbers from 1 to n
-//Count total bits in a number
-//Count unset bits of a number
-//Count unset bits in a range
-//Count set bits in a range
-//Count number of bits to be flipped to convert A to B
-//Count minimum bits to flip such that XOR of A and B equal to C
-//Count all pairs of an array which differ in K bits
-//Count trailing zero bits using lookup table
-//Count smaller numbers whose XOR with n produces greater value
 
 //Occurences - types
 //Odd occurring element
