@@ -1,20 +1,14 @@
-
 //bits.c
 
 
 //Add two number in binary representation 
 //Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
-//Given an array in which every number occurs 3 times find this one number occurring only once - 
-//Given an integer find next higher/lower integer with same number of set bits as original integer - 
+
+
 //Given an integer find next power of 2 greater than this integer
-//Given an array find one/two number occurring odd number of times
-//Square of a number without using * or ^ operator
-//Find two missing number where there are n-2 unique numbers in range 1 to n. Find one missing and one repeated number where all //numbers are in range 1 to n.
 //Get first 2^n gray code - GrayCode.java
-//Convert a binary code to integer
-//Flip the bits of given number
-//Find the most significant set bit of a number
-//Quickly check if bits in a number are in alternate pattern
+
+
 
 //Macro to set a bit
 #define bitset(byte,nbit)   ((byte) |=  (1<<(nbit)))
@@ -139,6 +133,7 @@ int main()
     return 0;
 }
   
+//Mulitply without using x operator
   
 //Full adder logic
 
@@ -319,153 +314,151 @@ int main()
  
     return 0;
 }
-//Divisible by 2 using right shift operation
-//Multiply by 2 using left shift operator
+//Divide two integers without using multiplication, division and mod operator
+
 //Find xor without using xor
+
+//Check if two numbers are equal without using arithmetic and comparison operators
+//Compare two integers without using any Comparison operator
+//Smallest of three integers without comparison operators
+//Find largest element from array without using conditional operator
+
+//Calculate square of a number without using *, / and pow()
 //Calculate 2^n
 //Check if given 32 bit integer is power of 2
-//Add 1 to a given number
 //Find whether a given number is a power of 4 or not
-//Add two bit strings
-//Check if two numbers are equal without using arithmetic and comparison operators
-//Efficient method for 2’s complement of a binary string
+//Check if n is divisible by power of 2 without using arithmetic operators
 //Multiplication with a power of 2
-//Find One’s Complement of an Integer
-//Compare two integers without using any Comparison operator
-//Addition of two numbers without carry
-//Calculate square of a number without using *, / and pow()
-//Divide two integers without using multiplication, division and mod operator
-//Smallest of three integers without comparison operators
 //Multiplication of two numbers with shift operator
-//Find largest element from array without using conditional operator
+
+//Add 1 to a given number
+//Add two bit strings
+//Addition of two numbers without carry
+
+//Efficient method for 2’s complement of a binary string
+//Find One’s Complement of an Integer
 //Inverting every bit of a number/1s complement
 //2s complement of the no.
-//Stripping off the lowest set bit
+
 //Given register address how to write a value to it.
 //Conversions of a given number
+//Convert a binary code to integer
 //To sum of given digits
 //Reverse a number without recursion
 //To check the given number is factorial or not
-//Rotation of bits
+//Rotation of bits (left & right)
+//Check if two numbers are bit rotations of each other or not
 //To check whether little endian to big endian
 //To convert 32 bit from LE to BE
-//Little and Big Endian Mystery
 //S to I
 //I to S
 
+//Write an Efficient C Program to Reverse Bits of a Number
+//Reverse actual bits of the given number
+
+//Swap - types
+//To swap bits in a given number 
+//To interchange the bits in two given numbers - https://stackoverflow.com/questions/45361419/c-swap-a-bit-between-two-numbers
+//Swap all odd & even bits
+//Swap every two bits in bytes
+//Swap two nibbles in a byte
+//How to swap two numbers without using a temporary variable?
+//Swap three variables without using temporary variable
+
 //Set - types
-//Set mth to nth bit
-//Set the Left most unset bit
 //Set all even bits of a number
 //Set all odd bits of a number
 //Set all the bits in given range of a number
 //Print numbers having first and last bits as the only set bits
-//Set bits in N equals to M in the given range
+//Set the Left most unset bit
+//Set mth to nth bit
 //Inserting m into n such that m starts at bit j and ends at bit i
-//Print first n numbers with exactly two set bits
-//Next greater integer having one more number of set bits
-//Program to count number of set bits in an (big) array
-//Next higher number with same number of set bits
+//Set bits in N equals to M in the given range
 //Getting lowest set bit of a number
+//Stripping off the lowest set bit
+//Next greater integer having one more number of set bits
+//Next higher number with same number of set bits
+//Given an integer find next higher/lower integer with same number of set bits as original integer - 
+//Print first n numbers with exactly two set bits
+
+//Clear - types
+//Change all even bits in a number to 0
+//Unset bits in the given range
+//Unset the last m bits
+//Clear all bits from lsb to ith bit
+//Clearing all bits from msb to ith bit
+//How to turn off a particular bit in a number?
+
+//Toggle - types
+//Toggle all even bits of a number
+//Toggle all odd bits of a number
+//Toggle bits in the given range
+//Toggle first and last bits of a number
+//Toggle the last m bits
+//Toggle bits of a number expect first and last bits
+//Toggle all bits after most significant bit
+//Toggling k-th bit of a number
+//Toggle all the bits of a number except k-th bit
+//For every set bit of a number toggle bits of other
+//Minimum flips to make all 1s in left and 0s in right | Set 1 (Using Bitmask)
+//Calculate XOR from 1 to n
+//Direct XOR without using loops
+//Game of XOR
 
 //Position - types
 //Find position of the only set bit
 //Find bit at a position
 //Extract ‘k’ bits from a given position in a number
 
-//Clear - types
-//Clear all bits from lsb to ith bit
-//Clearing all bits from msb to ith bit
-//How to turn off a particular bit in a number?
-//Unset bits in the given range
-//Change all even bits in a number to 0
-//Unset the last m bits
-
-//Toggle - types
-//Toggle case of a string using Bitwise operators
-//Toggling k-th bit of a number
-//Toggle all the bits of a number except k-th bit
-//Toggle the last m bits
-//Toggle bits in the given range
-//Toggle bits of a number expect first and last bits
-//Calculate XOR from 1 to n
-//Toggle all even bits of a number
-//Toggle first and last bits of a number
-//For every set bit of a number toggle bits of other
-//Toggle all odd bits of a number
-//Minimum flips to make all 1s in left and 0s in right | Set 1 (Using Bitmask)
-//Toggle all bits after most significant bit
-//Direct XOR without using loops
-//Game of XOR
-
-//Swap - types
-//Quickest way to swap 2 no.s
-//Swap every bits
-//Swap all odd & even bits
-//To swap bits in a given number 
-//How to swap two numbers without using a temporary variable?
-//Swap two nibbles in a byte
-//Shift even & odd positions
-//To interchange the bits in two given numbers
-//To interchange the bits in a given number
-//Swap three variables without using temporary variable
-//Swap every two bits in bytes
-//Swap bits in a given number
-//How to swap two bits in a given integer?
-
-//Write an Efficient C Program to Reverse Bits of a Number
-//Reverse actual bits of the given number
-
 //Rightmost - types
 //Position of rightmost set bit
 //To clear rightmost set bit
-//Position of rightmost set bit
-//Turn off rightmost set bit
 //Count total set bits in all nos from 1 to n
 //Check if a number is even or odd
 //Set the rightmost unset bit
+//Get the position of rightmost unset bit
 //Find most significant set bit of a number
+//Print ‘K’th least significant bit of a number
 //Position of rightmost bit with first carry in sum of two binary
 //Position of rightmost common bit in two numbers
-//Get the position of rightmost unset bit
 //Position of rightmost different bit
 
 //Checking - types
-//Check if given four integers (or sides) make rectangle
-//Check whether the bit at given position is set or unset
-//Check if n is divisible by power of 2 without using arithmetic operators
+//Check if all bits of a number are set
+//Check whether all the bits are set in the given range
+//Check whether the number has only first and last bits set
+//Check whether all the bits are unset in the given range or not
+//Check whether K-th bit is set or not
 //Detect if two integers have opposite signs
 //Check for Integer Overflow
 //Check if a number has bits in alternate pattern
 //Check if a number is positive, negative or zero using bit operators
 //Check if a number has two adjacent set bits
-//Check if two numbers are equal without using comparison operators
-//Check whether K-th bit is set or not
+//Quickly check if bits in a number are in alternate pattern
 //Check whether the two numbers differ at one bit position only
-//Check if all bits of a number are set
-//Check whether all the bits are set in the given range
-//Check whether the number has only first and last bits set
-//Check whether all the bits are unset in the given range or not
-//Check if two numbers are bit rotations of each other or not
+//Check if given four integers (or sides) make rectangle
 
 //Count - types
 //Count set bits in integer
-//Count number of bits to be flipped to convert A to B
+//Count total set bits in all numbers from 1 to n
 //Count total bits in a number
-//Count minimum bits to flip such that XOR of A and B equal to C
 //Count unset bits of a number
 //Count unset bits in a range
 //Count set bits in a range
+//Count number of bits to be flipped to convert A to B
+//Count minimum bits to flip such that XOR of A and B equal to C
 //Count all pairs of an array which differ in K bits
 //Count trailing zero bits using lookup table
 //Count smaller numbers whose XOR with n produces greater value
-//Count total set bits in all numbers from 1 to n
 
 //Occurences - types
 //Odd occurring element
+//Given an array in which every number occurs 3 times find this one number occurring only once - 
 //Missing number array
+//Find two missing number where there are n-2 unique numbers in range 1 to n. Find one missing and one repeated number where all //numbers are in range 1 to n.
 //Find the element that appears once
 //Find the Number Occurring Odd Number of Times
+//Given an array find one/two number occurring odd number of times
 //Find the two non-repeating elements in an array of repeating elements
 //Efficiently check if a string has duplicates without using any additional data structure
 //Determine if a string has all Unique Characters
@@ -476,9 +469,7 @@ int main()
 //Find the largest number with n set and m unset bits
 //Find the smallest number with n set and m unset bits
 //M-th smallest number having k number of set bits.
-//Print ‘K’th least significant bit of a number
 //Write a function that returns 2 for input 1 and returns 1 for 2
 
 //Index of a extra element
 //Power set
-
