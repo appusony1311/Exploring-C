@@ -133,8 +133,7 @@ int main()
     return 0;
 }
   
-//Mulitply without using x operator
-  
+ 
 //Full adder logic
 
 
@@ -208,6 +207,8 @@ The following is simple algorithm.
    b) Double 'a' and halve 'b'
 3) Return 'res'. 
   
+ 
+//Mulitply without using x operator
   
 #include <iostream>
 using namespace std;
@@ -255,7 +256,7 @@ Reference:
 http://mathforum.org/dr.math/faq/faq.peasant.html
 
 
-//Divide 2 nos without using / operator
+//Divide two integers without using multiplication, division and mod operator
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -314,7 +315,7 @@ int main()
  
     return 0;
 }
-//Divide two integers without using multiplication, division and mod operator
+
 
 //Find xor without using xor
 
