@@ -3,18 +3,11 @@
 
 
 //Add two number in binary representation 
-//Given an integer and number k, right or left rotate bits in this integer by k
-//Count number of set bits in an integer
 //Given a screen in form of byte array with width and start and end points of a horizontal line. Draw this line DrawHorizontalLine.java
 //Given an array in which every number occurs 3 times find this one number occurring only once - 
-//Given two numbers M and N, insert M into N from i to j bits of N
 //Given an integer find next higher/lower integer with same number of set bits as original integer - 
 //Given an integer find next power of 2 greater than this integer
 //Given an array find one/two number occurring odd number of times
-//Given two numbers M and N, how many bit flips are required to convert M into N
-//Given an integer reverse bits of this integer
-//Given an integer swap its odd bits with even bits at every position
-//Given an integer and two numbers i and j, swap bits at these positions in this integer
 //Square of a number without using * or ^ operator
 //Find two missing number where there are n-2 unique numbers in range 1 to n. Find one missing and one repeated number where all //numbers are in range 1 to n.
 //Get first 2^n gray code - GrayCode.java
@@ -33,13 +26,9 @@
 //Toggle a bit
 #define bitflip(byte,nbit)  ((byte) ^=  (1<<(nbit)))
 
-
 //Checking if bit at nth position is set or not
 #define bitcheck(byte,nbit) ((byte) &   (1<<(nbit)))
 
-//Changing nth bit to x
-// Bit n will be set if x is 1 and cleared if x is 0.
-number ^= (-x ^ number) & (1LL << n);
 
 //Modify a bit at a given position
 Given a number n, a position p and a binary value b, we need to change the bit at position p in n to value b.
