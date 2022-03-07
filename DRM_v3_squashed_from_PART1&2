@@ -13,14 +13,10 @@ Taking the process displayed by HDMI Monitor as an example, the behavior of CRTC
 
 1. First, the HDMI driver detects the Plugin signal of the TV, reads the EDID signal of the TV, and obtains the resolution information of the TV (DRM Connector)
 2. Userspace fills the framebuffer with the data to be displayed, and then informs the VOP device to start displaying through the libdrm interface
-3. Then the VOP (https://lwn.net/Articles/615310/ - 
-
-The basic "crtc" for rockchip is a "VOP" - Video Output Processor.
+3. Then the VOP (what is meany by VOP? -> https://lwn.net/Articles/615310/ - The basic "crtc" for rockchip is a "VOP" - Video Output Processor.
 the vop devices found on Rockchip rk3288 Soc, rk3288 soc have two similar
 Vop devices. Vop devices support iommu mapping, we use dma-mapping API with
-ARM_DMA_USE_IOMMU.
-
- driver converts the data in the framebuffer into standard LCDC Timing timing (DRM CRTC)
+ARM_DMA_USE_IOMMU.)  driver converts the data in the framebuffer into standard LCDC Timing timing (DRM CRTC)
 4. At the same time, the HDMI driver aligns the LCDC timing configuration of the HDMI hardware module with the VOP output timing, and prepares to convert the input LCDC Timing into the HDMI TMDS signal (DRM Encoder) recognized by the TV.
 
 4. Basic concepts and usage examples of Linux DRM (C language) (VERY IMPORTANT):
