@@ -1,2 +1,0 @@
-
-Insert a node into LinkList
