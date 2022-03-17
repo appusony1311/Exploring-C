@@ -5,22 +5,7 @@ int main()
        char name[1000]="Welcome to the world of love	";
        int i=0,length=0,new_length,num_spaces=0, j=0;
 
-#if 0
-       while(name[i] !='\0')
-       {
-              length++;
-              i++;
-       }
-       printf("string length=%d %d\n",i,length);
- 
-       while(i)
-       {
-              if(name[i]== ' ')
-                     num_spaces++;
-              i--;
-       }
-       printf("num of spaces=%d\n",num_spaces);
-#endif
+
 
 #if 1
     // count spaces and find current length
